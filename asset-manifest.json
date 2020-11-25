@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vsChampions/static/css/main.9766a094.chunk.css",
+    "main.js": "/vsChampions/static/js/main.73f70d5d.chunk.js",
+    "main.js.map": "/vsChampions/static/js/main.73f70d5d.chunk.js.map",
+    "runtime-main.js": "/vsChampions/static/js/runtime-main.4953ff14.js",
+    "runtime-main.js.map": "/vsChampions/static/js/runtime-main.4953ff14.js.map",
+    "static/css/2.b97b5188.chunk.css": "/vsChampions/static/css/2.b97b5188.chunk.css",
+    "static/js/2.72d93a4e.chunk.js": "/vsChampions/static/js/2.72d93a4e.chunk.js",
+    "static/js/2.72d93a4e.chunk.js.map": "/vsChampions/static/js/2.72d93a4e.chunk.js.map",
+    "index.html": "/vsChampions/index.html",
+    "static/css/2.b97b5188.chunk.css.map": "/vsChampions/static/css/2.b97b5188.chunk.css.map",
+    "static/css/main.9766a094.chunk.css.map": "/vsChampions/static/css/main.9766a094.chunk.css.map",
+    "static/js/2.72d93a4e.chunk.js.LICENSE.txt": "/vsChampions/static/js/2.72d93a4e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/vsChampions/static/media/SEGA.47b4bfa9.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4953ff14.js",
+    "static/css/2.b97b5188.chunk.css",
+    "static/js/2.72d93a4e.chunk.js",
+    "static/css/main.9766a094.chunk.css",
+    "static/js/main.73f70d5d.chunk.js"
+  ]
+}
