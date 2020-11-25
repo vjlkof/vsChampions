@@ -27,7 +27,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    fetch('http://ddragon.leagueoflegends.com/cdn/10.22.1/data/en_US/champion.json')
+    fetch('https://ddragon.leagueoflegends.com/cdn/10.22.1/data/en_US/champion.json')
     .then(response => response.json())
     .then(users => this.setState({ champs : Object.values(users.data)}));
   }
@@ -67,7 +67,7 @@ class App extends Component {
     this.setState({energy1: 100});
     this.setState({energy2: 100});
     this.setState({champWon: ''});
-    fetch('http://ddragon.leagueoflegends.com/cdn/10.22.1/data/en_US/champion.json')
+    fetch('https://ddragon.leagueoflegends.com/cdn/10.22.1/data/en_US/champion.json')
     .then(response => response.json())
     .then(users => this.setState({ champs : Object.values(users.data)}));
   }
