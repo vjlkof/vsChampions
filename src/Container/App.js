@@ -98,7 +98,7 @@ class App extends Component {
          <React.StrictMode>
            <h1 className='f1 tc'>VsChampions</h1>
            <div className='flex items-center'>
-             <div className='tc w-40 pa3 mr2'>
+             <div className='tc w-40 pa3 pa1-m'>
                <SearchSelectChamp champs={champs} searchChange={this.onSelectChamp1} message={'Select champion 1'} ready1={champReady1} ready2={champReady2}/>
                <Scroll className='tc'>
                  <ErrorBoundry>
@@ -106,10 +106,10 @@ class App extends Component {
                  </ErrorBoundry>
                </Scroll>
              </div>
-             <div className='tc w-20 pa3 mr2'>
+             <div className='tc w-20 pa3 pa1-m'>
                <Fight ready1={champReady1} ready2={champReady2} figthing={this.onFighting}/>
              </div>
-               <div className='tc w-40 pa3 mr2'>
+               <div className='tc w-40 pa3 pa1-m'>
                  <SearchSelectChamp champs={champs} searchChange={this.onSelectChamp2} message={'Select champion 2'} ready1={champReady1} ready2={champReady2}/>
                  <Scroll className='tc'>
                    <ErrorBoundry>

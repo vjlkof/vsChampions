@@ -9,7 +9,7 @@ function Fight ({ready1, ready2,figthing}) {
   if (ready1 && ready2){
     return (    
     <div>
-      <button className='b--white-40 br4 grow bw2 white-80 pa4 hover-bg-near-black bg-dark-red' disabled={false} onClick={figthing}>
+      <button className='b--white-40 br4-l br2 grow bw2-l bw1 white-80 pa4-l pa2 hover-bg-near-black bg-dark-red' disabled={false} onClick={figthing}>
         Fight
       </button>
     </div>
@@ -17,7 +17,7 @@ function Fight ({ready1, ready2,figthing}) {
   } else{
     return (
     <div>
-      <button className='b--gray bg-gray br4 white-80 pa4' disabled={true}>
+      <button className='b--gray bg-gray br4-l br2 white-80 pa4-l pa2' disabled={true}>
         Fight
       </button>
     </div>
